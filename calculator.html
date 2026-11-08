@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Estimate a sample holiday budget based on destination, travellers, duration and travel style."><title>Trip cost calculator | WanderLux Travel</title><link rel="stylesheet" href="assets/style.css"></head><body>
+<header class="site-header"><div class="container nav-wrap">
+<a class="brand" href="index.html">Wander<span>Lux</span></a>
+<button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+<nav class="nav-links" aria-label="Main navigation">
+<a href="index.html">Home</a><a href="destinations.html">Destinations & Services</a><a href="calculator.html">Trip Calculator</a><a href="appointment.html">Appointment</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+</nav></div></header>
+
+<main><section class="page-hero"><div class="container"><span class="eyebrow">Plan with confidence</span><h1>Trip cost calculator</h1><p>Build an initial budget estimate before requesting a tailored quotation.</p></div></section>
+<section class="section"><div class="container split"><div class="reveal"><h2>A useful starting point</h2><p>The calculator combines a destination base rate, daily costs, group size, duration and a travel-style adjustment. The values are sample planning assumptions created for this project; they are not supplier prices or a confirmed quote.</p><ul class="feature-list"><li>Choose one of three destinations.</li><li>Enter the number of travellers and days.</li><li>Compare Budget, Standard and Luxury estimates.</li></ul></div>
+<div class="panel reveal"><form id="trip-form"><div class="form-grid">
+<div class="field full"><label for="destination">Destination</label><select id="destination" required><option value="Bali">Bali, Indonesia</option><option value="Italy">Italy</option><option value="Japan">Japan</option></select></div>
+<div class="field"><label for="travellers">Travellers</label><input id="travellers" type="number" min="1" max="20" value="2" required></div>
+<div class="field"><label for="days">Number of days</label><input id="days" type="number" min="1" max="60" value="5" required></div>
+<div class="field full"><label for="style">Travel style</label><select id="style"><option value="0.8">Budget</option><option value="1" selected>Standard</option><option value="1.65">Luxury</option></select></div>
+<div class="field full"><button class="btn" type="submit">Calculate estimate</button></div></div></form><div id="estimate" class="result" aria-live="polite"><span class="muted">Your estimated trip total</span><br><strong>$2,500 AUD</strong><p>Example estimate for 2 travellers to Bali for 5 days at Standard level.</p></div><p class="notice">Estimate only. Actual prices vary with season, availability, exchange rates, taxes and supplier terms.</p></div></div></section></main>
+<footer class="footer"><div class="container"><div class="footer-grid">
+<div><a class="brand" href="index.html" style="color:white">Wander<span>Lux</span></a><p>Thoughtful journeys, carefully planned. Explore memorable holidays with a travel team that listens to what matters to you.</p></div>
+<div><h3>Explore</h3><p><a href="destinations.html">Destinations</a></p><p><a href="calculator.html">Trip calculator</a></p><p><a href="appointment.html">Book a consultation</a></p></div>
+<div><h3>Get in touch</h3><p>Melbourne, Australia</p><p><a href="mailto:hello@wanderlux.example">hello@wanderlux.example</a></p><p>+61 3 9000 0000</p></div>
+</div><div class="footer-bottom">© 2026 WanderLux Travel Agency · Demonstration student project. Package prices are illustrative.</div></div></footer>
+<script src="assets/script.js"></script>
+</body></html>
